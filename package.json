@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
+    "readline-sync": "^1.4.10",
+    "testcafe": "^2.1.0"
+  }
+}
