@@ -95,8 +95,3 @@ console.log();
 
 console.log(-765 % 0);  
 console.log(-897654.678422 % 0);
-
-
-
-
-

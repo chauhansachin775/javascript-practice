@@ -5,37 +5,28 @@ let getUserRole = function(userName, userRole) {
     switch(userRole) {
 
         case "Manager" :
-            return `${userName} is a Manager, Who assign the project.`;
-            break;
-        
+            return `${userName} is a Manager, Who assign the projects.`;
+            break; // As soon as you implement return statement the break will fade out,
+                   // because after the return statement no code will execute.
         case "Tech Lead" :
             return `${userName} is a Tech Lead, Who look after the entire technical developments.`;
-            break;
-
         case "Developer" :
             return `${userName} is a Developer, Who writes code to develop the project.`;
-            break;
-        
         case "QA" :
             return `${userName} is a QA, Who is responsible for the quality assurance.`;
-            break;
-        
         case "Client" :
             return `${userName}, is a Client, Who is the owner of a project.`;
-
         default :
             return `${userName} is an invalid user.`
-
     }
 }
 
-
-const readLine = require("readline-sync");
+import { question } from "readline-sync";
 
 console.log("Enter the user name: ");
-let userName = String(readLine.question());
+let userName = String(question());
 
 console.log("Enter the role: ");
-let userRole = String(readLine.question());
+let userRole = String(question());
 
 console.log(getUserRole(userName, userRole));

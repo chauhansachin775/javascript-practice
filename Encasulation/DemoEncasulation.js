@@ -26,19 +26,13 @@ person_1.setPersonDetails('sachin', 31, 101)
 let person_2 = new Person()
 person_2.setPersonDetails('anil', 28, 102)
 
-
 console.log(person_1)
 console.log(person_2)
-
 console.log()
-
 console.log(person_1.getName())
 console.log(person_1.getAge())
 console.log(person_1.getPId())
-
 console.log()
-
 console.log(person_2.getName())
 console.log(person_2.getAge())
 console.log(person_2.getPId())
-

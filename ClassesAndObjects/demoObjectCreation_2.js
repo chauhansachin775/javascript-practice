@@ -10,9 +10,6 @@ class Laptop{
         this.battrySize = battrySize;
         this.screenSize = screenSize;
     }
-    
-    // getAllLaptops(){
-    // }
 }
 
 function createLaptop(l1){
@@ -21,7 +18,6 @@ function createLaptop(l1){
     laptopName = new Laptop(l1[0], l1[1], l1[2], l1[3], l1[4], l1[5], l1[6]);
     console.log("you have created a laoptop.");
     return laptopName;
-    //console.log()
 }
 
 // function to initialize the objects
@@ -52,9 +48,6 @@ function newLaptopRegistration(){
 
     //obj creation
     let allLaptop = [];
-
-    
-    
     allLaptop = createLaptop(laptop);
     
     for(i = 0; i <= 20; i++){
@@ -77,14 +70,7 @@ function newLaptopRegistration(){
     }else{
         console.log("Thank you.!!")
     }
-
-    // let counts;
-    // for(counts of allLaptop){
-    //     console.log(counts)
-    // }
 } 
-
-//program inception
 
 const readLine = require("readline-sync");
 

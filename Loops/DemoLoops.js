@@ -1,4 +1,4 @@
-//**************** for loop **************************/
+// //**************** for loop **************************/
 
 let num = [23, 45, 56, 88]   //integer array
 let i
@@ -31,4 +31,3 @@ let y
 for(y of stdAttribute){
     console.log(y)
 }
-

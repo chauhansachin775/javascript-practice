@@ -46,7 +46,6 @@ console.log('City: ' ,city);
 console.log('Is User LoggedIn from Gmail: ',isLoggedInFromGmail);
 console.log('Browser Name: ',browser);
 
-
 //third way to display content on the console
 //using back ticks[``]. also known as String Interpolation
 
@@ -60,7 +59,6 @@ isLoggedInFromGmail = 'false';
 browser = 'opera';
 
 console.log(`
-
 First Name: ${firstName}
 Last Name: ${lastName}
 User ID: ${uId}
@@ -69,5 +67,4 @@ User Password: ${password}
 City: ${city}
 Is User LoggedIn from Gmail: ${isLoggedInFromGmail}
 Browser Name: ${browser}
-
 `)

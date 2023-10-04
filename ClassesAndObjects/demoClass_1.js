@@ -1,19 +1,9 @@
 class Employee{
 
-
-    // Employee(empId, empName){
-    //     this.empId = empId
-    //     this.empName - empName;
-    // }
-
     constructor(empId, empName){
         this.empId = empId
         this.empName = empName
-
     }
-
-
-
 }
 
 let emp1 = new Employee(9000, 'sachin')
